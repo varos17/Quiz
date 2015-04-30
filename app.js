@@ -56,7 +56,11 @@ app.use(function(err, req, res, next) {
 });
 
 
-module.exports = app;
-app.listen(8000);
 
-console.log("Servidor iniciado, atiende peticiones en el puerto 8000");
+
+
+
+
+module.exports = app;
+//app.listen(3000);
+//console.log("Servidor iniciado, atiende peticiones en el puerto 8000");
